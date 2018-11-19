@@ -103,7 +103,8 @@ Programación orientada a aspectos AOP-->
 		</dependency>
 		<!-- Spring ORM, para el mapeo de los objetos con spring
 		para  usar con spring o JPA.
-		 Mapeo relacional de objetos (ORM)-->
+		 Mapeo relacional de objetos (ORM)
+		 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>

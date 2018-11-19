@@ -1,0 +1,9 @@
+beans/MainController.class
+beans/service/PersonService.class
+beans/dao/PersonDAOImpl.class
+beans/CarImpl.class
+beans/dao/PersonDAO.class
+beans/CarBean.class
+beans/service/PersonServiceImpl.class
+beans/CarDao.class
+beans/model/Person.class

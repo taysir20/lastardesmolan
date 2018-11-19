@@ -23,7 +23,7 @@
 		<!-- JSF Version -->
 		<jsf.version>2.2</jsf.version>
 
-		<!-- Logging -->
+		<!-- Logging PARA DEBUGUEAR EL CÓDIGO -->
 		<logback.version>1.0.13</logback.version>
 		<slf4j.version>1.7.5</slf4j.version>
 	</properties>
@@ -88,18 +88,22 @@
 			<artifactId>spring-tx</artifactId>
 			<version>${spring-framework.version}</version>
 		</dependency>
+		<!-- Modelo Vista COntrolador de Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring-framework.version}</version>
 		</dependency>
-		<!-- AspectJ -->
+		<!-- AspectJ para añadir 
+Programación orientada a aspectos AOP-->
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
 			<version>${aspectj.version}</version>
 		</dependency>
-		<!-- Spring ORM support -->
+		<!-- Spring ORM, para el mapeo de los objetos con spring
+		para  usar con spring o JPA.
+		 Mapeo relacional de objetos (ORM)-->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
@@ -117,12 +121,14 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>${hibernate.version}</version>
 		</dependency>
-
+<!-- Dependencias para la conexión mysql -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.9</version>
 		</dependency>
+		<!-- Para realizar pools de conexiones a base de datos 
+		y no crear una conexión nueva siempre-->
 		<dependency>
 			<groupId>commons-dbcp</groupId>
 			<artifactId>commons-dbcp</artifactId>
@@ -147,25 +153,25 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-
+<!-- Servlep API  -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 		</dependency>
-
+<!-- Dependencias para el uso de jsp -->
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
 			<version>2.1</version>
 		</dependency>
-
+<!-- Expression EL -->
 		<dependency>
 			<groupId>com.sun.el</groupId>
 			<artifactId>el-ri</artifactId>
 			<version>1.0</version>
 		</dependency>
-
+<!-- java Web API -->
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-web-api</artifactId>

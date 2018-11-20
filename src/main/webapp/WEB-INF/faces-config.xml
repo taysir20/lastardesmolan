@@ -19,7 +19,7 @@
 		<var>bundle</var>
 	   </resource-bundle>
 	   
-	   <!-- REGLAS DE NAVEGACIÓN -->
+	   <!-- REGLAS DE NAVEGACIÓN  -->
 	   <navigation-rule>
 		<from-view-id>/index.xhtml</from-view-id>
 		<navigation-case>

@@ -6,7 +6,7 @@ package utilities;
  * faces-config.xml
  */
 public class NavigationResult {
-	
+	//Regla de navegación de prueba
 	public static final String IR_A_PAGINA_PERSON="irPerson";
 
 }

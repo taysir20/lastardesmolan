@@ -1,6 +1,8 @@
 package beans;
 
+
 import java.io.Serializable;
+import utilities.NavigationResult;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
@@ -14,6 +16,14 @@ public class MainController implements Serializable {
 	private String name;
 	private String primeName;
 	private String richName;
+
+	
+	
+	
+	public String abrirPaginaPerson() {
+		return  NavigationResult.IR_A_PAGINA_PERSON;
+		
+	}
 
 	public String getName() {
 		return name;

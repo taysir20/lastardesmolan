@@ -5,5 +5,6 @@ beans/CarImpl.class
 beans/dao/PersonDAO.class
 beans/CarBean.class
 beans/service/PersonServiceImpl.class
+utilities/NavigationResult.class
 beans/CarDao.class
 beans/model/Person.class

@@ -7,6 +7,9 @@ package utilities;
  */
 public class NavigationResult {
 	//Regla de navegación de prueba
-	public static final String IR_A_PAGINA_PERSON="irPerson";
+	public static final String IR_A_PAGINA_GLOBAL="irGlobal";	
+	public static final String IR_A_PAGINA_PRINCIPAL="irPrincipal";
+
+	
 
 }

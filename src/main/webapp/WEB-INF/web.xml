@@ -21,7 +21,7 @@
 	</context-param>
 	<!-- Establecemos la página de inicio por defecto --> 
 	<welcome-file-list>
-		<welcome-file>index.jsf</welcome-file>
+		<welcome-file>index.xhtml</welcome-file>
 	</welcome-file-list>
 
 	<servlet>
@@ -31,8 +31,14 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Faces Servlet</servlet-name>
-		<url-pattern>*.jsf</url-pattern>
+		<url-pattern>*.xhtml</url-pattern>
 	</servlet-mapping>
+	<!-- Establecemos el tiempo de sesión en 30 min -->
+	 <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
 	<!-- Se activa el modo Project Stage de desarrollo para ver advertencias 
 		y errores en nuestras páginasy facilitarnos el proceso -->
 	<context-param>
